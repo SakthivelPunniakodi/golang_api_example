@@ -1,0 +1,52 @@
+@startuml
+
+package "PLS BE (Microservices)" {
+  package "Manager Service" {
+    frame "Manager API Layer" {
+      [ManagerHandler.go] as AMH
+    }
+    frame "Manager BL Layer" {
+      [ManagerService.go] as BMS
+    }
+  }
+
+  package "Ticket Service" {
+    frame "Ticket API Layer" {
+      [TicketHandler.go] as ATH
+    }
+    frame "Ticket BL Layer" {
+      [TicketService.go] as BTS
+    }
+  }
+
+  package "Space Allocation Service" {
+    frame "Space Allocation API Layer" {
+      [SpaceAllocationHandler.go] as ASAH
+    }
+    frame "Space Allocation BL Layer" {
+      [SpaceAllocationService.go] as BSAS
+    }
+  }
+
+  package "Payment Service" {
+    frame "Payment API Layer" {
+      [PaymentHandler.go] as APH
+    }
+    frame "Payment BL Layer" {
+      [PaymentService.go] as BPS
+    }
+  }
+}
+
+[PLS FE] --> [AMH] : HTTP Request
+
+AMH --> BMS
+ATH --> BTS
+ASAH --> BSAS
+APH --> BPS
+
+BMS -down-> ATH : GRPS Request
+BMS -down-> ASAH : GRPS Request
+BMS -down-> APH : GRPS Request
+
+@enduml

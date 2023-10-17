@@ -1,0 +1,102 @@
+@host = http://localhost:8080
+
+# @host = http://localhost:3500/v1.0/invoke/manager/method
+
+# ======================================================================================================================
+# Deallocate spot
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-1",
+    "validationKey": "6b86b273-ff34-fce1-9d6b-804eff5a3f57",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-2",
+    "validationKey": "d4735e3a-265e-16ee-e03f-59718b9b5d03",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-3",
+    "validationKey": "4e074085-62be-db8b-60ce-05c1decfe3ad",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-4",
+    "validationKey": "4b227777-d4dd-1fc6-1c6f-884f48641d02",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-5",
+    "validationKey": "ef2d127d-e37b-942b-aad0-6145e54b0c61",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-6",
+    "validationKey": "e7f6c011-776e-8db7-cd33-0b54174fd76f",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-7",
+    "validationKey": "7902699b-e42c-8a8e-46fb-bb4501726517",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}
+
+### 
+POST {{host}}/api/v1/spot/deallocate
+
+{
+    "ticketId": "TICKET-8",
+    "validationKey": "2c624232-cdd2-2177-1294-dfbb310aca00",
+    "cvv": "129",
+    "cardNumber": "1111-1111-1111-1111",
+    "cardType": "VISA",
+    "paymentMethod": "CREDIT_CARD"
+}

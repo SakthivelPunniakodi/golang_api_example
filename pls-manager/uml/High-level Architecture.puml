@@ -1,0 +1,17 @@
+@startuml High-level Architecture
+!define COMPONENT component
+
+package "PLS BE (Microservices)" {
+  [Manager Service] as MS
+  [Ticket Service] as TS
+  [Space Allocation Service] as SAS
+  [Payment Service] as PS
+}
+
+[PLS FE] --> [MS]
+
+MS -down-> TS : Manages
+MS -down-> SAS : Manages
+MS -down-> PS : Manages
+
+@enduml

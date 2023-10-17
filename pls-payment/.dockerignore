@@ -1,0 +1,9 @@
+.bin
+.vscode
+api
+swagger
+.gitignore
+.netrc
+Dockerfile
+overrides.mk
+README.md

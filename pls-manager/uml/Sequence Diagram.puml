@@ -1,0 +1,35 @@
+@startuml
+
+actor "FE App"
+
+Space -> Manager: Notify Unoccupied Spots
+Manager -> "FE App": Notify Unoccupied Spots
+
+"FE App" -> Manager: Allocate Spot Request
+Manager -> Space: Allocate Space Request
+Space -> Manager: Notify Unoccupied Spots
+Manager -> "FE App": Notify Unoccupied Spots
+Space --> Manager: Respond with Allocation
+Manager -> Ticket: Generate Ticket Request
+Ticket --> Manager: Respond with Ticket
+Manager --> "FE App": Respond with Allocation and Ticket
+
+"FE App" -> Manager: Get Ticket Info Request
+Manager -> Ticket: Get Ticket Info Request
+Ticket --> Manager: Respond with Ticket Info
+Manager --> "FE App": Respond with Ticket Info
+
+"FE App" -> Manager: Deallocate Spot Request
+Manager -> Ticket: Get Ticket Info Request
+Ticket --> Manager: Respond with Ticket Info
+Manager -> Payment: Process Payment Request
+Payment --> Manager: Respond of Process Payment
+Manager -> Space: Deallocate Space Request
+Space -> Manager: Notify Unoccupied Spots
+Manager -> "FE App": Notify Unoccupied Spots
+Space --> Manager: Respond of Deallocationn
+Manager -> Ticket: Discard Ticket Request
+Ticket --> Manager: Respond of Discard Ticket
+Manager --> "FE App": Respond of Deallocation
+
+@enduml

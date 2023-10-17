@@ -1,0 +1,61 @@
+@startuml
+
+class ParkingSpotType {
+  + Compact
+  + Large
+  + Handicapped
+  + EVChargeStation
+  + Motorcycle
+}
+
+class ParkingSpot {
+  - SpotNumber: int
+  - SpotType: ParkingSpotType
+  - IsOccupied: bool
+  + NewParkingSpot(spotNumber: int, spotType: ParkingSpotType): ParkingSpot
+}
+
+class MinHeap {
+  - h: []*ParkingSpot
+  + Len(): int
+  + Less(i, j: int): bool
+  + Swap(i, j: int)
+  + Push(x: interface{})
+  + Pop(): interface{}
+}
+
+class ParkingFloor {
+  - mu: *sync.Mutex
+  - FloorNumber: int
+  - CompactAvailableSpots: MinHeap
+  - CompactOccupiedSpots: map[int]*ParkingSpot
+  - LargeAvailableSpots: MinHeap
+  - LargeOccupiedSpots: map[int]*ParkingSpot
+  - HandicappedAvailableSpots: MinHeap
+  - HandicappedOccupiedSpots: map[int]*ParkingSpot
+  - EVChargeStationAvailableSpots: MinHeap
+  - EVChargeStationOccupiedSpots: map[int]*ParkingSpot
+  - MotorcycleAvailableSpots: MinHeap
+  - MotorcycleOccupiedSpots: map[int]*ParkingSpot
+  + NewParkingFloor(mu: *sync.Mutex, floorNumber: int, capacity: int, spotTypes: ...ParkingSpotType): ParkingFloor
+  + AllocateSpot(spotType: ParkingSpotType): (*ParkingSpot, error)
+  + getParkingSpot(spotType: ParkingSpotType, availableSpots: *MinHeap, occupiedSpots: *map[int]*ParkingSpot): (*ParkingSpot, error)
+}
+
+class ParkingLot {
+  - mu: *sync.Mutex
+  - Floors: []*ParkingFloor
+  + NewParkingLot(floorCount: int, floorCapacity: int, spotTypes: ...[]ParkingSpotType): ParkingLot
+  + AllocateSpot(spotType: ParkingSpotType): (int, int, error)
+  + getParkingSpot(floorNumber: int, spotType: ParkingSpotType, availableSpots: *MinHeap, occupiedSpots: *map[int]*ParkingSpot): (int, int, error)
+  + DeallocateSpot(floorNumber: int, spotNumber: int, spotType: ParkingSpotType): error
+  + deallocateSpot(spotNumber: int, availableSpots: *MinHeap, occupiedSpots: map[int]*ParkingSpot)
+}
+
+ParkingSpotType --> ParkingSpot
+ParkingSpot *--> MinHeap
+ParkingFloor *--> MinHeap
+ParkingFloor --> ParkingSpotType
+ParkingLot *--> ParkingFloor
+
+@enduml

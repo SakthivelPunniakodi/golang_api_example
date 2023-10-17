@@ -1,0 +1,96 @@
+@host = http://localhost:8080
+
+# @host = http://localhost:3500/v1.0/invoke/manager/method
+
+# ======================================================================================================================
+# Allocate spot
+
+### Allocate Compact Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1270",
+    "vehicleType": "Car",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": false
+}
+
+### Allocate Compact Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1271",
+    "vehicleType": "Car",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": false
+}
+
+### Allocate Compact Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1272",
+    "vehicleType": "Van",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": false
+}
+
+### Allocate Large Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1273",
+    "vehicleType": "Truck",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": false
+}
+
+### Allocate Large Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1274",
+    "vehicleType": "Truck",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": false
+}
+
+### Allocate Handicapped Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1275",
+    "vehicleType": "Van",
+    "isNeedHandicappedSpot": true,
+    "isNeedEVChargeStationSpot": false
+}
+
+### Allocate Motorcycle Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1276",
+    "vehicleType": "Motorcycle",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": false
+}
+
+### Allocate EVChargeStation Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1277",
+    "vehicleType": "Car",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": true
+}
+
+### Allocate Compact Type Vehicle
+POST {{host}}/api/v1/spot/allocate
+
+{
+    "vehicleNumber": "BDV-1278",
+    "vehicleType": "Car",
+    "isNeedHandicappedSpot": false,
+    "isNeedEVChargeStationSpot": false
+}
