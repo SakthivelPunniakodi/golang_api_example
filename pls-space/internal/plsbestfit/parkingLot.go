@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"sync"
 
-	"sampleapi/pls-shared/constant"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 )
 
 type ParkingLot struct {

@@ -10,8 +10,8 @@ package plsfirstfit_test
 import (
 	"testing"
 
-	"sampleapi/pls-shared/constant"
-	"sampleapi/pls-space/internal/plsfirstfit"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/plsfirstfit"
 )
 
 func TestNewParkingSlot(t *testing.T) {

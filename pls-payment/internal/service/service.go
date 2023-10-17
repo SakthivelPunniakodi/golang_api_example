@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"time"
 
-	"sampleapi/pls-payment/internal/dto"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	"sampleapi/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-payment/internal/dto"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 )
 
 type Option func(*paymentService)

@@ -13,11 +13,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"sampleapi/pls-shared/constant"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	"sampleapi/pls-shared/logger"
-	"sampleapi/pls-shared/utils"
-	"sampleapi/pls-ticket/internal/dto"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-ticket/internal/dto"
 
 	"github.com/shopspring/decimal"
 )

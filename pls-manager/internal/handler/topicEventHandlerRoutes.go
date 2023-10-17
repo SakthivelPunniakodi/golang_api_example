@@ -18,8 +18,8 @@
 package handler
 
 import (
-	daprsvr "sampleapi/pls-shared/dapr/server"
-	spaceEvents "sampleapi/pls-shared/events/space"
+	daprsvr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/server"
+	spaceEvents "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/space"
 )
 
 func MapTopicEventHandlerRoutes(server daprsvr.Server, handler Manager) error {

@@ -11,10 +11,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"sampleapi/pls-shared/constant"
-	daprsvr "sampleapi/pls-shared/dapr/server"
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/events/common"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprsvr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/server"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/common"
 )
 
 const eventRouteSpotChanged common.EventRoute = "/spotChanged"

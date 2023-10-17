@@ -8,7 +8,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"sampleapi/pls-shared/constant"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 )
 
 func GetVehicleTypeString(vehicleType constant.VehicleType) string {

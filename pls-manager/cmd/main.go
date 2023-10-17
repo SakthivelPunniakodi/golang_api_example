@@ -12,18 +12,18 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"sampleapi/pls-manager/internal/env"
-	"sampleapi/pls-manager/internal/handler"
-	"sampleapi/pls-manager/internal/payment"
-	iservice "sampleapi/pls-manager/internal/service"
-	"sampleapi/pls-manager/internal/space"
-	"sampleapi/pls-manager/internal/ticket"
-	"sampleapi/pls-shared/constant"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	daprsvr "sampleapi/pls-shared/dapr/server"
-	spaceEvents "sampleapi/pls-shared/events/space"
-	ilogger "sampleapi/pls-shared/logger"
-	"sampleapi/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/env"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/handler"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/payment"
+	iservice "github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/service"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/space"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/ticket"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	daprsvr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/server"
+	spaceEvents "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/space"
+	ilogger "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
 )
 
 func main() {

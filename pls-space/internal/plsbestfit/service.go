@@ -11,12 +11,12 @@ import (
 	"context"
 	"fmt"
 
-	"sampleapi/pls-shared/constant"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	spaceEvents "sampleapi/pls-shared/events/space"
-	"sampleapi/pls-shared/logger"
-	"sampleapi/pls-space/internal/common"
-	"sampleapi/pls-space/internal/dto"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	spaceEvents "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/space"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/common"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/dto"
 )
 
 type Option func(*spaceService)

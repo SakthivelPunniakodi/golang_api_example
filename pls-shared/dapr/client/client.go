@@ -13,9 +13,9 @@ import (
 
 	dapr "github.com/dapr/go-sdk/client"
 
-	"sampleapi/pls-shared/constant"
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 )
 
 type Option func(*client)

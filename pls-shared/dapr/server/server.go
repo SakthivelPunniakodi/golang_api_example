@@ -15,8 +15,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/logger"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 
 	"github.com/dapr/go-sdk/service/common"
 	daprd "github.com/dapr/go-sdk/service/http"

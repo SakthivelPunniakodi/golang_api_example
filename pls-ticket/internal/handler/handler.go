@@ -8,8 +8,8 @@
 package handler
 
 import (
-	"sampleapi/pls-shared/logger"
-	iservice "sampleapi/pls-ticket/internal/service"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	iservice "github.com/SakthivelPunniakodi/golang_api_example/pls-ticket/internal/service"
 )
 
 type Option func(*ticketHandler)

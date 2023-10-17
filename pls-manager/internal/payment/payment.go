@@ -10,10 +10,10 @@ package payment
 import (
 	"context"
 
-	"sampleapi/pls-shared/constant"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 )
 
 type Payment interface {

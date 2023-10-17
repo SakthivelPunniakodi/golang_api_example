@@ -7,7 +7,7 @@
 
 package plsbestfit
 
-import "sampleapi/pls-shared/constant"
+import "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 
 type ParkingSpot struct {
 	SpotNumber int

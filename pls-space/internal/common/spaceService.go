@@ -3,7 +3,7 @@ package common
 import (
 	"context"
 
-	"sampleapi/pls-space/internal/dto"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/dto"
 )
 
 type SpaceService interface {

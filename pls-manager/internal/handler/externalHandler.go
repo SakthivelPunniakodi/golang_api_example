@@ -14,11 +14,11 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"sampleapi/pls-manager/internal/dto"
-	"sampleapi/pls-shared/constant"
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/rest"
-	"sampleapi/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/dto"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/rest"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
 )
 
 type externalHandler interface {

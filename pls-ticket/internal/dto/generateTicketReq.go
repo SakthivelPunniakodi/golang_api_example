@@ -7,7 +7,7 @@
 
 package dto
 
-import "sampleapi/pls-shared/constant"
+import "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 
 type GenerateTicketReq struct {
 	VehicleNumber string                   `json:"vehicleNumber"`

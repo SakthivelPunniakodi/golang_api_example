@@ -11,14 +11,14 @@ import (
 	"context"
 	"fmt"
 
-	"sampleapi/pls-manager/internal/dto"
-	"sampleapi/pls-manager/internal/payment"
-	"sampleapi/pls-manager/internal/space"
-	"sampleapi/pls-manager/internal/ticket"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	spaceEvents "sampleapi/pls-shared/events/space"
-	"sampleapi/pls-shared/logger"
-	"sampleapi/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/dto"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/payment"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/space"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/ticket"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	spaceEvents "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/space"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
 )
 
 type Option func(*manager)

@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"os"
 
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/utils"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
 )
 
 const (

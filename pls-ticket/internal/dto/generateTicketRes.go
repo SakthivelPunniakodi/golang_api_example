@@ -10,7 +10,7 @@ package dto
 import (
 	"time"
 
-	"sampleapi/pls-shared/constant"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 )
 
 type GenerateTicketRes struct {

@@ -8,8 +8,8 @@
 package handler
 
 import (
-	iservice "sampleapi/pls-payment/internal/service"
-	"sampleapi/pls-shared/logger"
+	iservice "github.com/SakthivelPunniakodi/golang_api_example/pls-payment/internal/service"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 )
 
 type Option func(*paymentHandler)

@@ -12,8 +12,8 @@ import (
 	"errors"
 	"net/http"
 
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/logger"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 )
 
 type errorResponse struct {

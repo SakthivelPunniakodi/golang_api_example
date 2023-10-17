@@ -21,8 +21,8 @@ import (
 	"context"
 	"fmt"
 
-	"sampleapi/pls-manager/internal/dto"
-	spaceEvents "sampleapi/pls-shared/events/space"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/dto"
+	spaceEvents "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/space"
 )
 
 type topicEventHandler interface {

@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"sync"
 
-	daprclt "sampleapi/pls-shared/dapr/client"
-	"sampleapi/pls-shared/logger"
-	"sampleapi/pls-space/internal/common"
-	"sampleapi/pls-space/internal/dto"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/common"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/dto"
 )
 
 type Option func(*spaceService)

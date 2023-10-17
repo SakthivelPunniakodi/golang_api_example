@@ -8,9 +8,9 @@
 package handler
 
 import (
-	"sampleapi/pls-manager/internal/service"
-	spaceEvents "sampleapi/pls-shared/events/space"
-	"sampleapi/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-manager/internal/service"
+	spaceEvents "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/space"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 
 	"github.com/gorilla/websocket"
 )

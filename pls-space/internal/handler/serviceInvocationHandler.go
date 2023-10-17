@@ -12,8 +12,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-space/internal/dto"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/dto"
 )
 
 type serviceInvocationHandler interface {

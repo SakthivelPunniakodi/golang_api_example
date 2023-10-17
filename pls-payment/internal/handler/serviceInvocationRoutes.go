@@ -8,8 +8,8 @@
 package handler
 
 import (
-	"sampleapi/pls-shared/constant"
-	daprsvr "sampleapi/pls-shared/dapr/server"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprsvr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/server"
 )
 
 func MapServiceInvocationRoutes(server daprsvr.Server, handler PaymentHandler) error {

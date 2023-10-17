@@ -10,16 +10,16 @@ package main
 import (
 	"context"
 
-	"sampleapi/pls-shared/constant"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	daprsvr "sampleapi/pls-shared/dapr/server"
-	ilogger "sampleapi/pls-shared/logger"
-	"sampleapi/pls-shared/utils"
-	"sampleapi/pls-space/internal/common"
-	"sampleapi/pls-space/internal/env"
-	"sampleapi/pls-space/internal/handler"
-	"sampleapi/pls-space/internal/plsbestfit"
-	"sampleapi/pls-space/internal/plsfirstfit"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	daprsvr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/server"
+	ilogger "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/common"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/env"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/handler"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/plsbestfit"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/plsfirstfit"
 )
 
 func main() {

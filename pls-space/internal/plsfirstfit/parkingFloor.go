@@ -10,7 +10,7 @@ package plsfirstfit
 import (
 	"fmt"
 
-	"sampleapi/pls-shared/constant"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 )
 
 type ParkingFloor struct {

@@ -10,7 +10,7 @@ package ticket
 import (
 	"time"
 
-	"sampleapi/pls-shared/constant"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 
 	"github.com/shopspring/decimal"
 )

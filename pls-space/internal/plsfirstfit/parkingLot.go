@@ -7,7 +7,7 @@
 
 package plsfirstfit
 
-import "sampleapi/pls-shared/constant"
+import "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 
 type ParkingLot struct {
 	Floors []*ParkingFloor

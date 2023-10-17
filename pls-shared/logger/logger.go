@@ -13,7 +13,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	ierr "sampleapi/pls-shared/errors"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
 )
 
 type Config struct {

@@ -8,14 +8,14 @@
 package main
 
 import (
-	"sampleapi/pls-shared/constant"
-	daprclt "sampleapi/pls-shared/dapr/client"
-	daprsvr "sampleapi/pls-shared/dapr/server"
-	ilogger "sampleapi/pls-shared/logger"
-	"sampleapi/pls-shared/utils"
-	"sampleapi/pls-ticket/internal/env"
-	"sampleapi/pls-ticket/internal/handler"
-	iservice "sampleapi/pls-ticket/internal/service"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
+	daprclt "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/client"
+	daprsvr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/dapr/server"
+	ilogger "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-ticket/internal/env"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-ticket/internal/handler"
+	iservice "github.com/SakthivelPunniakodi/golang_api_example/pls-ticket/internal/service"
 )
 
 func main() {

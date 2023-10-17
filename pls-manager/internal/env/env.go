@@ -10,8 +10,8 @@ package env
 import (
 	"fmt"
 
-	"sampleapi/pls-shared/env"
-	"sampleapi/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/env"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
 )
 
 type Env struct {

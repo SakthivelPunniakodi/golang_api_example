@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"sampleapi/pls-shared/constant"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/constant"
 )
 
 func TestNewParkingSpot(t *testing.T) {

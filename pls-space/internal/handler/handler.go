@@ -8,8 +8,8 @@
 package handler
 
 import (
-	"sampleapi/pls-shared/logger"
-	"sampleapi/pls-space/internal/common"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-space/internal/common"
 )
 
 type Option func(*spaceHandler)

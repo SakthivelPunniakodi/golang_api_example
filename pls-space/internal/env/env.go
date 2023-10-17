@@ -12,9 +12,9 @@ import (
 	"os"
 	"strconv"
 
-	"sampleapi/pls-shared/env"
-	ierr "sampleapi/pls-shared/errors"
-	"sampleapi/pls-shared/utils"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/env"
+	ierr "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/errors"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/utils"
 )
 
 const (

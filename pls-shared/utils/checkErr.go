@@ -8,7 +8,7 @@
 package utils
 
 import (
-	"sampleapi/pls-shared/logger"
+	"github.com/SakthivelPunniakodi/golang_api_example/pls-shared/logger"
 )
 
 func CheckErr(logger logger.Logger, fn func() error) {

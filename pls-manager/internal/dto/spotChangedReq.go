@@ -8,7 +8,7 @@
 package dto
 
 import (
-	spaceEvents "sampleapi/pls-shared/events/space"
+	spaceEvents "github.com/SakthivelPunniakodi/golang_api_example/pls-shared/events/space"
 )
 
 type SpotChangedReq struct {
